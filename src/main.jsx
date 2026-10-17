@@ -8,7 +8,7 @@ import { Provider } from 'react-redux'
 import store from './redux/store'
 import axios from 'axios';
 
-axios.defaults.baseURL = 'https://fptu-fa-25-sdn-301m-assignment.vercel.app'; // Sử dụng proxy từ Vite config
+axios.defaults.baseURL = 'https://quiz-system-backend-seven.vercel.app'; // Sử dụng proxy từ Vite config
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
