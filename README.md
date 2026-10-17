@@ -4,7 +4,7 @@ Modern React web app for the **Online Question & Quiz Management System**. Stude
 
 🔗 **Live demo:** <https://quiz-system-frontend-eight.vercel.app>
 
-⚙️ **Backend API:** [quiz-system-backend](https://github.com/ThuHang2604/quiz-system-backend) · [Swagger docs](https://quiz-system-backend-seven.vercel.app/api-docs)
+⚙️ **Backend API:** [quiz-system-backend](https://github.com/ThuHang2604/quiz-system-backend) · [Swagger docs](https://quiz-system-backend-seven.vercel.app/api-docs/)
 
 ## Features
 
