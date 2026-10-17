@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { register } from '../redux/actions/authActions';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, Link } from 'react-router-dom';
 import { toast } from '../utils/toast';
 
 const Register = () => {
@@ -141,7 +141,7 @@ const Register = () => {
                 
                 <div className="mt-4 text-center">
                     <p className="text-muted small mb-0">
-                        Already have an account? <a href="/login" className="text-decoration-none" style={{ color: '#818cf8', fontWeight: 600 }}>Login here</a>
+                        Already have an account? <Link to="/login" className="text-decoration-none" style={{ color: '#818cf8', fontWeight: 600 }}>Login here</Link>
                     </p>
                 </div>
             </div>

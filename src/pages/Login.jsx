@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { login } from '../redux/actions/authActions';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, Link } from 'react-router-dom';
 
 const Login = () => {
     const [username, setUsername] = useState('');
@@ -103,7 +103,7 @@ const Login = () => {
                 
                 <div className="mt-4 text-center">
                     <p className="text-muted small mb-0">
-                        Don't have an account? <a href="/register" className="text-decoration-none" style={{ color: '#818cf8', fontWeight: 600 }}>Register here</a>
+                        Don't have an account?  <Link to="/register" className="text-decoration-none" style={{ color: '#818cf8', fontWeight: 600 }}>Register here</Link>
                     </p>
                 </div>
             </div>
